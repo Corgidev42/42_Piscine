@@ -1,0 +1,37 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   wdmatch.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vincent <vincent@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/12/05 20:21:01 by angavrel          #+#    #+#             */
+/*   Updated: 2024/09/20 10:57:51 by vincent          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+
+void	wdmatch(char *s1, char *s2)
+{
+	int len = 0;
+	int i = 0;
+
+	while (s1[len])
+		++len;
+	while (*s2 && i < len)
+	{
+		if (*s2++ == s1[i])
+			++i;
+	}
+	if (i == len)
+		write(1, s1, len);
+}
+
+int		main(int ac, char **av)
+{
+	if (ac == 3)
+		wdmatch(av[1], av[2]);
+	write(1, "\n", 1);
+	return (0);
+}
