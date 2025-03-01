@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   rush01.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/07 10:13:56 by kmartine          #+#    #+#             */
 /*   Updated: 2024/09/08 15:29:07 by vbonnard         ###   ########.fr       */
@@ -63,7 +64,7 @@ void	dligne(int x)
 		}
 		ft_putchar('/');
 	}
-	ft_putchar ('\n');
+	ft_putchar('\n');
 }
 
 void	rush(int x, int y)

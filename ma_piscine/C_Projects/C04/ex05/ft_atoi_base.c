@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 18:19:53 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/12 14:32:58 by vbonnard         ###   ########.fr       */
@@ -112,7 +112,7 @@ int	main(int argc, char *argv[])
 	{
 		printf("%d",ft_atoi_base((argv[1]), argv[2]));
 	}
-	
+
 	return (0);
 }
 */

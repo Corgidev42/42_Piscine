@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 09:32:41 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/15 09:59:02 by vbonnard         ###   ########.fr       */
@@ -40,7 +40,7 @@ void	ft_print_sol(int *tab, int size)
 /* int	ft_find_pos_rows(int index, int size)
 {
 	int	x;
-	
+
 	x = index / size;
 	return (x);
 }

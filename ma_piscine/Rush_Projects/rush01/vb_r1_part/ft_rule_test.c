@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_rule_test.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 16:17:10 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/15 18:31:48 by vbonnard         ###   ########.fr       */
@@ -180,7 +180,7 @@ int	check_grid(int to_see[4][4], int tab[4][4])
 
 int main(void)
 {
-	int tab[4][4] = 
+	int tab[4][4] =
 	{
 	{1,4,2,3},
 	{3,1,4,2},
@@ -194,6 +194,6 @@ int main(void)
 		{2,2,1,4}
 	};
 	printf("%d", check_grid(to_see, tab));
-	
-	
-}  
+
+
+}

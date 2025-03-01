@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 18:49:21 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/16 19:16:52 by vbonnard         ###   ########.fr       */
@@ -41,7 +42,7 @@ void	ft_putstr_non_printable(char *str)
 {
 	int		i;
 	char	hex_digits[16];
-	
+
 	ft_int_tab(hex_digits);
 	i = 0;
 	while (str[i])
@@ -60,10 +61,10 @@ void	ft_putstr_non_printable(char *str)
 		}
 	}
 }
-/* 
-int main(void)
+/*
+int	main(void)
 {
 	char str[] = "Coucou\ntu vas bien ?";
 	ft_putstr_non_printable(str);
-	return 0;
+	return (0);
 } */

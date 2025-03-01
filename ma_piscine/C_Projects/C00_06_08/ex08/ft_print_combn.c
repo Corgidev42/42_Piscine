@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 10:08:07 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/18 17:44:42 by vbonnard         ###   ########.fr       */
@@ -55,8 +56,10 @@ void	ft_print_combn(int n)
 
 /* int	main(void)
 {
-	int	comb = 9;
+	int	comb;
+
+	comb = 9;
 	ft_print_combn(comb);
-	return 0;
+	return (0);
 }
  */

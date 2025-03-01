@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/08 19:19:00 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/10 18:51:51 by vbonnard         ###   ########.fr       */
@@ -34,12 +35,14 @@ char	*ft_strstr(char *str, char *to_find)
 /*
 #include <stdio.h>
 
-int main(void)
+int	main(void)
 {
-	char *str = "la voiture est magnifique, mais pas la tienne";
-	char *to_find = "";
+	char	*str;
+	char	*to_find;
 
+	str = "la voiture est magnifique, mais pas la tienne";
+	to_find = "";
 	printf("%s", ft_strstr(str,to_find));
-	return 0;
+	return (0);
 }
 */

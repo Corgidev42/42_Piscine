@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 09:29:48 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/22 11:59:53 by vbonnard         ###   ########.fr       */
@@ -38,9 +38,9 @@ int		main(void)
 	char src[] = "Qui est tu toi ? Je v";
 
 	max_charac = 24;
-	
+
 	*dest = *ft_strncpy(dest, src, max_charac);
-	
+
 	printf("dest :  %s \n", dest);
 
 	unsigned int i = 0;
@@ -50,7 +50,7 @@ int		main(void)
 		printf("dest[%d] = %c\n",i, dest[i]);
 		i++;
 	}
-	
+
 
 
 	return (0);

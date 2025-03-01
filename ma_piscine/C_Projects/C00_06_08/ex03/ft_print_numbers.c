@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 16:36:40 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/05 09:15:33 by vbonnard         ###   ########.fr       */
@@ -24,10 +25,10 @@ void	ft_print_numbers(void)
 	}
 }
 /*
-int     main(void)
+int	main(void)
 {
-    ft_print_numbers();
-    return 0;
+	ft_print_numbers();
+	return (0);
 }
 
 */

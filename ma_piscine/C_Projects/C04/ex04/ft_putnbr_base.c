@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:09:44 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/11 16:55:22 by vbonnard         ###   ########.fr       */
@@ -92,7 +92,7 @@ int	main(int argc, char *argv[])
 	{
 		ft_putnbr_base(atoi(argv[1]), argv[2]);
 	}
-	
+
 	return (0);
 }
 */

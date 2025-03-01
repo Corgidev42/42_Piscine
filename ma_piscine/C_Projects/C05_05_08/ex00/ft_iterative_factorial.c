@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 15:31:18 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/09 15:37:58 by vbonnard         ###   ########.fr       */
@@ -33,6 +34,6 @@ int	main(void)
 
 	i = 3;
 	printf("factoriel de %d est : %d",i, ft_iterative_factorial(i));
-	return 0;
+	return (0);
 }
 */

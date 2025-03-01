@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 16:16:28 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/04 16:33:01 by vbonnard         ###   ########.fr       */
@@ -26,7 +27,7 @@ void	ft_print_reverse_alphabet(void)
 
 /*int     main(void)
 {
-    ft_print_reverse_alphabet();
-    return 0;
+	ft_print_reverse_alphabet();
+	return (0);
 }
 */

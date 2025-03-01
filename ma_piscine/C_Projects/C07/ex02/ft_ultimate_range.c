@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_range.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 10:35:31 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/12 10:55:31 by vbonnard         ###   ########.fr       */
@@ -45,7 +45,7 @@ int	main(int argc, char *argv[])
 		int		min = atoi (argv[1]);
 		int		max = atoi(argv[2]);
 		int		size = ft_ultimate_range(&tab, min, max);
-		
+
 		if (size == -1)
 			printf("erreur d'allocation");
 		else

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 12:03:15 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/05 13:55:25 by vbonnard         ###   ########.fr       */
@@ -33,7 +33,7 @@ int		main(void)
 	char	str[] = "FDFSG";
 
 	low_or_other = ft_str_is_lowercase(str);
-	
+
 	if (low_or_other == 1)
 		printf("carac.alphabet.min. ou est vide : %d", low_or_other);
 	else if (low_or_other == 0)

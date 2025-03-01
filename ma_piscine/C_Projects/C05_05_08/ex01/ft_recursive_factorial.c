@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 15:31:22 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/09 15:38:04 by vbonnard         ###   ########.fr       */
@@ -25,6 +26,6 @@ int	main(void)
 
 	i = 30;
 	printf("factoriel de %d est : %d",i, ft_recursive_factorial(i));
-	return 0;
+	return (0);
 }
 */

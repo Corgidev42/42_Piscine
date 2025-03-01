@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+
+ */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 14:41:15 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/04 16:28:10 by vbonnard         ###   ########.fr       */
@@ -12,7 +13,4 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c) { write(1, &c, 1); }

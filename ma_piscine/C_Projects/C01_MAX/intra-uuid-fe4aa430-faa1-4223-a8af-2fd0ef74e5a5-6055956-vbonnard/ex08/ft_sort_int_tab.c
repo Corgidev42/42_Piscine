@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 10:27:59 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/10 13:53:14 by vbonnard         ###   ########.fr       */
@@ -47,7 +47,7 @@ int	main(void)
 	{
 		printf("%d", tab[i]);
 	}
-		
+
 	return 0;
 }
 */

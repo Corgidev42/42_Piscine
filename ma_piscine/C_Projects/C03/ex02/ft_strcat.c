@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 17:41:13 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/09 19:01:26 by vbonnard         ###   ########.fr       */
@@ -37,7 +37,7 @@ int		main(void)
 {
 	char src[] = "sfdsdfsdf";
 	char dest[50] = "Coucou";
-	
+
 	*dest = *ft_strcat(dest, src);
 	*dest = *strcat(dest,src);
 	printf("%s\n", dest);

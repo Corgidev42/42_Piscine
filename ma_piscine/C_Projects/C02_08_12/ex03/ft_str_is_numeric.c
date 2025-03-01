@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 11:28:21 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/05 13:42:34 by vbonnard         ###   ########.fr       */
@@ -33,7 +33,7 @@ int		main(void)
 	char	str[] = "";
 
 	num_or_other = ft_str_is_numeric(str);
-	
+
 	if (num_or_other == 1)
 		printf("carac. numeric. ou est vide : %d", num_or_other);
 	else if (num_or_other == 0)

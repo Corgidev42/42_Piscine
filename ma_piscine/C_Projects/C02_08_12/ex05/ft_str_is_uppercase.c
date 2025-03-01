@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 13:36:16 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/05 13:55:28 by vbonnard         ###   ########.fr       */
@@ -33,7 +33,7 @@ int		main(void)
 	char	str[] = "";
 
 	up_or_other = ft_str_is_uppercase(str);
-	
+
 	if (up_or_other == 1)
 		printf("carac.alphabet.min. ou est vide : %d", up_or_other);
 	else if (up_or_other == 0)

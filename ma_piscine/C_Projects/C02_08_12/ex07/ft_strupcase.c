@@ -3,7 +3,8 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+      
+	+#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 13:42:59 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/07 18:40:13 by vbonnard         ###   ########.fr       */
@@ -12,7 +13,7 @@
 
 char	*ft_strupcase(char *str)
 {
-	int		i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -29,21 +30,18 @@ char	*ft_strupcase(char *str)
 /*
 #include <stdio.h>
 
-int		main(void)
+int	main(void)
 {
-	char str[] = "SDGsdgsldgjsldgkjslknSLGDNSLDGS:JDGfdjsnsfd 42";
-	
-	*str = *ft_strupcase(str);
-	
+	char	str[] = "SDGsdgsldgjsldgkjslknSLGDNSLDGS:JDGfdjsnsfd 42";
 	int		i;
 
+	*str = *ft_strupcase(str);
 	i = 0;
 	while (str[i] != '\0')
 	{
 		printf("%c", str[i]);
 		i++;
 	}
-
 	return (0);
 }
 

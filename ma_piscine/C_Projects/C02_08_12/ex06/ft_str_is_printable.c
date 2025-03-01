@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42perpignan.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 13:39:26 by vbonnard          #+#    #+#             */
 /*   Updated: 2024/09/05 13:55:42 by vbonnard         ###   ########.fr       */
@@ -33,7 +33,7 @@ int		main(void)
 	char	str[] = "";
 
 	printable_or_other = ft_str_is_printable(str);
-	
+
 	if (printable_or_other == 1)
 		printf("carac.imprimable ou est vide : %d", printable_or_other);
 	else if (printable_or_other == 0)
